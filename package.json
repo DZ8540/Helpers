@@ -1,0 +1,20 @@
+{
+  "name": "helpers",
+  "version": "1.0.0",
+  "description": "All DZ's helpers in this dependency ;D",
+  "main": "/Dist/index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DZ8540/Helpers.git"
+  },
+  "author": "DZ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DZ8540/Helpers/issues"
+  },
+  "homepage": "https://github.com/DZ8540/Helpers#readme",
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  }
+}
