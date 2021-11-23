@@ -1,0 +1,1 @@
+export { toUpperCaseFirstLetter } from './Src/TS/'

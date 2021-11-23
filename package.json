@@ -1,8 +1,9 @@
 {
   "name": "@dz8540/helpers",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "All DZ's helpers in this dependency ;D",
   "main": "/Dist/index.js",
+  "types": "helpers.d.ts",
   "scripts": {},
   "repository": {
     "type": "git",
