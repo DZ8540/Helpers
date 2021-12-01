@@ -6,3 +6,4 @@ This package will be expand every time when DZ will be wrote new helper.
 
 ## Available helpers
 * toUpperCaseFirstLetter - uppercase first letter in your string.
+* detectScheme - detect prefers color scheme.

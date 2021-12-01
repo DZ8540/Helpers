@@ -4,7 +4,9 @@
   "description": "All DZ's helpers in this dependency ;D",
   "main": "/Dist/index.js",
   "types": "helpers.d.ts",
-  "scripts": {},
+  "scripts": {
+    "prod": "tsc"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DZ8540/Helpers.git"

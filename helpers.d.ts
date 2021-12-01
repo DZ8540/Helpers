@@ -1,1 +1,2 @@
-export { toUpperCaseFirstLetter } from './Src/TS/'
+export { toUpperCaseFirstLetter } from './Src/TS/';
+export { detectScheme } from './Src/TS/';
