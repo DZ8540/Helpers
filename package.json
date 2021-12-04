@@ -1,6 +1,6 @@
 {
   "name": "@dz8540/helpers",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "All DZ's helpers in this dependency ;D",
   "main": "/Dist/index.js",
   "types": "helpers.d.ts",
