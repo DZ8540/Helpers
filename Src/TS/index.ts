@@ -4,40 +4,44 @@ import { print } from './console';
  * Logging your values with log method.
  * @param {any} messages - logging value.
  * @param {boolean} [isApart=true] - print separately or on one line.
+ * @param {string} [withTime=] - output time compiling.
  * @return {void}
  */
-export function log(messages: any, isApart: boolean = true): void {
-  print(messages, 'log', isApart);
+export function log(messages: any, isApart: boolean = true, withTime: string = ''): void {
+  print(messages, 'log', isApart, withTime);
 }
 
 /**
  * Logging your values with warn method.
  * @param {any} messages - logging value.
  * @param {boolean} [isApart=true] - print separately or on one line.
+ * @param {string} [withTime=] - output time compiling.
  * @return {void}
  */
-export function warn(messages: any, isApart: boolean = true): void {
-  print(messages, 'warn', isApart);
+export function warn(messages: any, isApart: boolean = true, withTime: string = ''): void {
+  print(messages, 'warn', isApart, withTime);
 }
 
 /**
  * Logging your values with info method.
  * @param {any} messages - logging value.
  * @param {boolean} [isApart=true] - print separately or on one line.
+ * @param {string} [withTime=] - output time compiling.
  * @return {void}
  */
-export function info(messages: any, isApart: boolean = true): void {
-  print(messages, 'info', isApart);
+export function info(messages: any, isApart: boolean = true, withTime: string = ''): void {
+  print(messages, 'info', isApart, withTime);
 }
 
 /**
  * Logging your values with error method.
  * @param {any} messages - logging value.
  * @param {boolean} [isApart=true] - print separately or on one line.
+ * @param {string} [withTime=] - output time compiling.
  * @return {void}
  */
-export function error(messages: any, isApart: boolean = true): void {
-  print(messages, 'error', isApart);
+export function error(messages: any, isApart: boolean = true, withTime: string = ''): void {
+  print(messages, 'error', isApart, withTime);
 }
 
 /**
