@@ -1,7 +1,7 @@
 type logTypes = 'log' | 'warn' | 'info' | 'error';
-export function print(messages: any, type: logTypes, isApart: boolean, withTime: string): void {
-  if (withTime)
-    console.time(withTime);
+export function print(messages: any, type: logTypes, isApart: boolean, timeName: string): void {
+  if (timeName)
+    console.time(timeName);
 
   if (Array.isArray(messages)) {
 
@@ -17,6 +17,6 @@ export function print(messages: any, type: logTypes, isApart: boolean, withTime:
     console[type](messages);
   }
 
-  if (withTime)
-    console.timeEnd(withTime);
+  if (timeName)
+    console.timeEnd(timeName);
 }
